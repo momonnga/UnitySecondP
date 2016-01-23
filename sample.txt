@@ -1,0 +1,80 @@
+Last login: Sat Jan 23 23:56:17 on ttys000
+MasayukiTamura-no-MacBook-Pro:~ masayuki$ ls
+Applications			Pictures
+Desktop				Public
+Documents			README.md
+Downloads			eyetribe
+Dropbox				matlab_crash_dump.24183-1
+Library				test4.py
+Movies				unityProject
+Music				weather.db
+New Unity Project
+MasayukiTamura-no-MacBook-Pro:~ masayuki$ cd Documents
+MasayukiTamura-no-MacBook-Pro:Documents masayuki$ cd GitHub
+MasayukiTamura-no-MacBook-Pro:GitHub masayuki$ git remote add origin https://github.com/rikinyanANDmomonnga/UnityFirstProgram.git
+fatal: remote origin already exists.
+MasayukiTamura-no-MacBook-Pro:GitHub masayuki$ git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/rikinyanANDmomonnga/Unity_FirstProgram.git/' not found
+MasayukiTamura-no-MacBook-Pro:GitHub masayuki$ git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/rikinyanANDmomonnga/Unity_FirstProgram.git/' not found
+MasayukiTamura-no-MacBook-Pro:GitHub masayuki$ git remote add origin2 https://github.com/rikinyanANDmomonnga/UnityFirstProgram.git
+MasayukiTamura-no-MacBook-Pro:GitHub masayuki$ git push -u origin2 master
+Counting objects: 18, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (18/18), 1.34 KiB | 0 bytes/s, done.
+Total 18 (delta 3), reused 0 (delta 0)
+To https://github.com/rikinyanANDmomonnga/UnityFirstProgram.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin2.
+MasayukiTamura-no-MacBook-Pro:GitHub masayuki$ mkdir UnitySecondP
+MasayukiTamura-no-MacBook-Pro:GitHub masayuki$ ls
+UnityFirstProgram	Unity_FirstProgram
+UnitySecondP		unityProject
+MasayukiTamura-no-MacBook-Pro:GitHub masayuki$ cd UnitySecondP
+MasayukiTamura-no-MacBook-Pro:UnitySecondP masayuki$ echo "# UnitySecondP" >> README.md
+MasayukiTamura-no-MacBook-Pro:UnitySecondP masayuki$ git init
+Initialized empty Git repository in /Users/masayuki/Documents/GitHub/UnitySecondP/.git/
+MasayukiTamura-no-MacBook-Pro:UnitySecondP masayuki$ git add README.md
+MasayukiTamura-no-MacBook-Pro:UnitySecondP masayuki$ git commit -m "first commit"
+[master (root-commit) 4c053c0] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+MasayukiTamura-no-MacBook-Pro:UnitySecondP masayuki$ git remote add origin https://github.com/momonnga/UnitySecondP.git
+MasayukiTamura-no-MacBook-Pro:UnitySecondP masayuki$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 230 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/momonnga/UnitySecondP.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+MasayukiTamura-no-MacBook-Pro:UnitySecondP masayuki$ git add sample.txt
+fatal: pathspec 'sample.txt' did not match any files
+MasayukiTamura-no-MacBook-Pro:UnitySecondP masayuki$ vim sample.txt
+
+aiueo
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT -- 
